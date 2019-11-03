@@ -15,9 +15,3 @@ print(args.y)
 
 if args.verbose:
     print("Adding {} plus {} equals {}".format(args.x, args.y, answer))
-
-# print('Number of Arguments:' + str(len(sys.argv)) + '.')
-# print('Argument List:' + str(sys.argv))
-
-
-# str_Hello = "Hello World, I love you"
