@@ -21,18 +21,3 @@ if args.verbose:
 
 
 # str_Hello = "Hello World, I love you"
-""" 
-print(str_Hello)
-print(str_Hello[-1])
-print(len(str_Hello))
-
-str_Hello= "Goodbye world, I am dying"
-print(str_Hello)
-
-letters="n"
-if letters=="y":
-    for i in str_Hello:
-        print(i)
-else:
-    for i in str_Hello:
-        print(str_Hello)  """
