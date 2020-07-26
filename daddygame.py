@@ -36,7 +36,7 @@ player.setheading(90)
 player.pencolor("yellow")
 player.setpos(0,-250)
 
-playerspeed=10
+playerspeed=15
 def moveleft():
     x = player.xcor()
     x-= playerspeed
