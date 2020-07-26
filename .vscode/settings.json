@@ -11,6 +11,10 @@
         "./__pycache__",
         "-p",
         "*_test.py"
+<<<<<<< HEAD
     ],
     "editor.cursorSmoothCaretAnimation": true
+=======
+    ]
+>>>>>>> 904cf29d48e07c46110c571983d38cfa772c940a
 }
