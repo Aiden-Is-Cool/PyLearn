@@ -36,7 +36,7 @@ player.setheading(90)
 player.pencolor("yellow")
 player.setpos(0,-250)
 
-playerspeed=15
+playerspeed=10
 def moveleft():
     x = player.xcor()
     x-= playerspeed
@@ -46,7 +46,6 @@ def moveright():
     x = player.xcor()
     x+= playerspeed
     player.setx(x)
-    
 
 #Create Keyboardbindings
 turtle.listen()
