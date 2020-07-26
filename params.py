@@ -11,7 +11,7 @@ x = args.x
 y = args.y
 answer = x*y
 
-print("=============================")
+print("A============================")
 print(answer)
 
 if args.verbose:
