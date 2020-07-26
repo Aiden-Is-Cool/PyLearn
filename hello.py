@@ -10,7 +10,7 @@ x = args.x
 y = args.y
 answer = x*y
 
-print("=============================")
+print("===============================")
 print(answer)
 
 if args.verbose:
