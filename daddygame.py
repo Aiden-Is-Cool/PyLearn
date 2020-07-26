@@ -46,6 +46,7 @@ def moveright():
     x = player.xcor()
     x+= playerspeed
     player.setx(x)
+    
 
 #Create Keyboardbindings
 turtle.listen()
