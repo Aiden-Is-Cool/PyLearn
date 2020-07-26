@@ -8,8 +8,9 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        ".",
+        "./__pycache__",
         "-p",
-        "test_*.py"
-    ]
+        "*_test.py"
+    ],
+    "editor.cursorSmoothCaretAnimation": true
 }
