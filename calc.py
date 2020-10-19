@@ -1,3 +1,4 @@
+# Lesson #3:  This explores using conditionals plus arguments plus using formattting in our output.
 import argparse
 parser = argparse.ArgumentParser()
 

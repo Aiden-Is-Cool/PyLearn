@@ -2,8 +2,16 @@
     "python.testing.pytestArgs": [
         "."
     ],
-    "python.testing.unittestEnabled": false,
+    "python.testing.unittestEnabled": true,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": false,
-    "python.testing.promptToConfigure": false
+    "python.testing.promptToConfigure": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./__pycache__",
+        "-p",
+        "*_test.py"
+    ],
+    "editor.cursorSmoothCaretAnimation": true
 }

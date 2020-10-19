@@ -1,4 +1,4 @@
-
+# Lesson #2:  This explores using arguments from the command line ("standard in" aka stdin) and doing a little bit of math with them.
 import argparse
 parser = argparse.ArgumentParser()
 
@@ -11,7 +11,7 @@ x = args.x
 y = args.y
 answer = x*y
 
-print("==============================")
+print("A============================")
 print(answer)
 
 if args.verbose:
